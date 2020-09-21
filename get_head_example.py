@@ -13,4 +13,4 @@ def header_example(attribute=None):
     except:
         print("Unexpected Error: ", sys.exc_info()[0]) # Any Generic Error
 
-header_example(attribute_argument_placeholder) # Call to function, requires an argument, which is the attribute that you want to display.
+header_example(attribute_argument_placeholder) # Call to function, requires an argument, which is the attribute that you want to display. If None, it prints the dictionary.
